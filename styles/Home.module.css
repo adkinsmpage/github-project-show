@@ -67,12 +67,12 @@
 
 .grid {
   max-width: 1000px;
-  column-count: 3;
-  column-gap: 10px;
+  column-count: 2;
+  column-gap: 25px;
 }
 
 .card {
-  margin: 1rem;
+  margin: 2rem;
   padding: 1.5rem;
   text-align: left;
   color: inherit;
