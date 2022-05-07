@@ -4,7 +4,7 @@ import {useState} from "react";
 
 export default function Home() {
     let [repos, setRepos] = useState([])
-  fetch('https://api.github.com/users/adkinsm2020/repos')
+  fetch('https://api.github.com/users/adkimsm/repos')
       .then(res => res.json())
       .then(res => {
           setRepos(res)
@@ -21,7 +21,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://github.com/adkinsm2020">Adkinsm's GitHub!</a>
+          Welcome to <a href="https://github.com/adkimsm">Adkinsm's GitHub!</a>
         </h1>
 
         <p className={styles.description}>
